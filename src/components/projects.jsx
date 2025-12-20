@@ -7,7 +7,7 @@ const projects = [
     title: "Proyecto Alpha",
     description: "Una plataforma de e-commerce completamente funcional lorem ...",
     demo: "https://ecommerce-platform.com",
-    github: "https://github.com/alexis123/proyecto-alpha",
+    github: "https://github.com/alexisalderete",
     image: "/ecommerce-platform-interface.png",
     tags: ["React", "Node.js", "MongoDB"],
   },
@@ -15,7 +15,7 @@ const projects = [
     title: "Proyecto Beta",
     description: "Una API RESTful para una aplicación de redes sociales... ",
     demo: "https://ecommerce-platform.com",
-    github: "https://github.com/alexis123/proyecto-beta",
+    github: "https://github.com/alexisalderete",
     image: "/code-editor-dark-theme.png",
     tags: ["Python", "Django", "PostgreSQL"],
   }

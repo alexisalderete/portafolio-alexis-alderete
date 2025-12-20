@@ -8,14 +8,14 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-6">
             <a
-              href="https://github.com"
+              href="https://github.com/alexisalderete"
               target="_blank"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <BsGithub className="h-7 w-7" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/alexis-alderete/"
               target="_blank"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
@@ -23,7 +23,7 @@ export function Footer() {
             </a>
           </div>
 
-          <p className="text-sm text-muted-foreground">© 2025 Programmer's Portfolio. Todos los derechos reservados.</p>
+          <p className="text-sm text-muted-foreground">© 2025 Alexis Alderete. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
