@@ -15,7 +15,7 @@ export function Header() {
           className="flex items-center gap-2 text-foreground hover:text-primary transition-colors cursor-pointer bg-transparent border-none"
         >
           <Code2 className="h-6 w-6 text-primary" />
-          <span className="font-semibold text-lg">Portfolio</span>
+          <span className="font-semibold text-lg">Alexis Rolando Alderete Araujo</span>
         </button>
         <nav className="hidden md:flex items-center gap-8">
           <button 
