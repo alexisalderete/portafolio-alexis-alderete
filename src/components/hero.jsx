@@ -1,5 +1,6 @@
 import { ArrowDown } from "lucide-react";
 import { scrollToSection } from "./utils/scrollUtils";
+import { FaArrowDown } from "react-icons/fa";
 
 export function Hero() {
   const handleProjectsClick = (e) => {
@@ -25,7 +26,7 @@ export function Hero() {
               className="inline-flex items-center justify-center px-8 py-3 rounded-lg bg-primary hover:bg-primary/80 text-white font-medium transition-colors shadow-lg shadow-primary/20 cursor-pointer"
             >
               Ver Mis Proyectos
-              <ArrowDown className="ml-2 h-4 w-4" />
+              <FaArrowDown className="ml-2 h-4 w-4" />
             </button>
           </div>
 
