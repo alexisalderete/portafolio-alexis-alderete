@@ -13,7 +13,7 @@ const projects = [
     demo: "#", // Sin demo disponible
     // github: "#",
     image: "./optimizacion-rutas.png",
-    tags: ["Django", "PostgreSQL", "Docker", "React", "Tailwind"],
+    tags: ["Python", "PostgreSQL", "Docker", "React", "Tailwind"],
     hasDemo: false // Sin demo disponible
   },
   {
