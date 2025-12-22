@@ -1,4 +1,4 @@
-import { SiJavascript, SiReact, SiPython, SiPhp, SiHtml5, SiCss3, SiBootstrap, SiTailwindcss, SiDjango, SiDocker, SiMysql, SiPostgresql, SiGithub } from "react-icons/si";
+import { SiJavascript, SiReact, SiPython, SiPhp, SiHtml5, SiCss3, SiBootstrap, SiTailwindcss, SiDocker, SiMysql, SiPostgresql, SiGithub } from "react-icons/si";
 import { DiGit, DiJava, DiMsqlServer  } from "react-icons/di";
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { SiXampp } from "react-icons/si";
@@ -29,8 +29,7 @@ const skills = [
       { icon: SiBootstrap, name: "Bootstrap", description: "Framework CSS", color: "text-purple-600" },
       { icon: SiTailwindcss, name: "Tailwind CSS", description: "Utility-first CSS", color: "text-cyan-500" },
       { icon: SiReact, name: "React", description: "Frontend framework", color: "text-cyan-400" },
-      { icon: SiDjango, name: "Django", description: "Python framework", color: "text-green-600" },
-      { icon: IoCloudDone, name: "API REST", description: "Servicios web", color: "text-green-500" }, // AÑADIDO AQUÍ
+      { icon: IoCloudDone, name: "API REST", description: "Servicios web", color: "text-green-500" },
     ]
   },
   
@@ -69,7 +68,6 @@ const skills = [
       { icon: DiGit, name: "Git", description: "Control versiones", color: "text-red-500" },
       { icon: SiGithub, name: "GitHub", description: "Repositorios", color: "text-white dark:text-white" },
       { icon: BiLogoVisualStudio, name: "VS Code", description: "Editor código", color: "text-blue-500" },
-      { icon: DiJava, name: "NetBeans", description: "IDE Java", color: "text-red-400" },
       { icon: SiMysql, name: "MySQL Workbench", description: "Admin DB", color: "text-blue-500" },
       { icon: SiPostgresql, name: "pgAdmin", description: "Admin PostgreSQL", color: "text-blue-400" },
       { icon: SiXampp, name: "XAMPP", description: "Entorno PHP", color: "text-orange-500" },

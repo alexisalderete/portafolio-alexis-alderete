@@ -15,7 +15,7 @@ export function Hero() {
           {/* Text content */}
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tighter text-foreground mb-6">
-              Full-Stack Developer
+              Desarrollador de software
             </h1>
             <p className="text-lg sm:text-xl text-slate-600 dark:text-slate-400 mb-8 leading-relaxed max-w-2xl">
               Desarrollador apasionado creando aplicaciones web modernas y responsivas con un enfoque en la experiencia
