@@ -2,6 +2,35 @@ import { BsGithub } from "react-icons/bs";
 import { HiExternalLink } from "react-icons/hi";
 
 const projects = [
+  
+  {
+    title: "Sistema de Gestión Institucional",
+    description: "Sistema integral de gestión para una institución educativa con múltiples módulos administrativo y académico. Implementado en la institución CITIC, con sede central en Caacupé.",
+    details: [
+      "Implementación y despliegue en hosting",
+      "Módulos: pagos, contabilidad, inscripciones, factura autoimpresa, etc.",
+      "Acceso multiusuario con diferentes perfiles y permisos"
+    ],
+    demo: "https://citicpy.com/sistema-demo/", // URL de demo activa
+    github: "https://github.com/alexisalderete/sistema-gestion-instituto-publico",
+    image: "./citic-sistema-gestion.png",
+    tags: ["PHP", "MVC", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap", "PhpOffice", "fpdf"],
+    hasDemo: true // Indicador de demo disponible
+  },
+  {
+    title: "Portal Académico CITIC",
+    description: "Plataforma web moderna para gestión académica con acceso diferenciado para estudiantes y docentes. Implementado en la institución CITIC, con sede central en Caacupé.",
+    details: [
+      "Implementación y despliegue en hosting",
+      "Gestión de inscripciones, calificaciones, materiales/tareas, visualización de pagos realizados",
+      "Acceso para estudiantes y docentes con interfaces personalizadas"
+    ],
+    demo: "#", // Sin demo disponible
+    github: "https://github.com/alexisalderete/portal-academico-publico",
+    image: "./citic-portal-academico.png",
+    tags: ["PHP MVC", "MySQL", "React", "Tailwind"],
+    hasDemo: false // Sin demo disponible
+  },
   {
     title: "Optimización de Flota Vehicular (en desarrollo)",
     description: "Aplicación web para optimización de rutas logísticas para múltiples vehículos.",
@@ -16,34 +45,6 @@ const projects = [
     tags: ["Python", "PostgreSQL", "Docker", "React", "Tailwind"],
     hasDemo: false // Sin demo disponible
   },
-  {
-    title: "Sistema de Gestión Institucional",
-    description: "Sistema integral de gestión para instituciones educativas con múltiples módulos administrativos y académicos.",
-    details: [
-      "Implementación y despliegue en hosting",
-      "Módulos: pagos, contabilidad, inscripciones, factura autoimpresa, etc.",
-      "Acceso multiusuario con diferentes perfiles y permisos"
-    ],
-    demo: "https://sistema-institucional-demo.com", // URL de demo activa
-    github: "https://github.com/alexisalderete/sistema-gestion-instituto-publico",
-    image: "./citic-sistema-gestion.png",
-    tags: ["PHP", "MVC", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap", "PhpOffice", "fpdf"],
-    hasDemo: true // Indicador de demo disponible
-  },
-  {
-    title: "Portal Académico",
-    description: "Plataforma web moderna para gestión académica con acceso diferenciado para estudiantes y docentes.",
-    details: [
-      "Implementación y despliegue en hosting",
-      "Gestión de inscripciones, calificaciones, materiales/tareas, visualización de pagos realizados",
-      "Acceso para estudiantes y docentes con interfaces personalizadas"
-    ],
-    demo: "#", // Sin demo disponible
-    github: "https://github.com/alexisalderete/portal-academico-publico",
-    image: "./citic-portal-academico.png",
-    tags: ["PHP", "MVC API", "MySQL", "React", "Tailwind"],
-    hasDemo: false // Sin demo disponible
-  }
   
   // {
   //   title: "E-commerce Full Stack",
