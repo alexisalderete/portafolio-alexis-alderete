@@ -1,5 +1,6 @@
 import { FaLinkedin } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
+import { FaWhatsapp } from "react-icons/fa";
 
 export function Footer() {
   return (
@@ -20,6 +21,13 @@ export function Footer() {
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <FaLinkedin className="h-7 w-7" />
+            </a>
+            <a
+              href="https://wa.me/595971459288"
+              target="_blank"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              <FaWhatsapp className="h-7 w-7" />
             </a>
           </div>
 

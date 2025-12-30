@@ -1,6 +1,8 @@
-import { ArrowDown } from "lucide-react";
 import { scrollToSection } from "./utils/scrollUtils";
 import { FaArrowDown } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { BsGithub } from "react-icons/bs";
+import { FaWhatsapp } from "react-icons/fa";
 
 export function Hero() {
   const handleProjectsClick = (e) => {
@@ -21,6 +23,34 @@ export function Hero() {
               Desarrollador apasionado creando aplicaciones web modernas y responsivas con un enfoque en la experiencia
               del usuario y el código limpio.
             </p>
+
+
+            <div className="flex items-center gap-6 mb-6">
+              <a
+                href="https://github.com/alexisalderete"
+                target="_blank"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                <BsGithub className="h-7 w-7" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/alexis-alderete/"
+                target="_blank"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                <FaLinkedin className="h-7 w-7" />
+              </a>
+              <a
+                href="https://wa.me/595971459288"
+                target="_blank"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                <FaWhatsapp className="h-7 w-7" />
+              </a>
+            </div>
+
+
+
             <button 
               onClick={handleProjectsClick}
               className="inline-flex items-center justify-center px-8 py-3 rounded-lg bg-primary hover:bg-primary/80 text-white font-medium transition-colors shadow-lg shadow-primary/20 cursor-pointer"
