@@ -9,7 +9,7 @@ const projects = [
     details: [
       "Implementación y despliegue en hosting",
       "Módulos: pagos, contabilidad, inscripciones, factura autoimpresa, etc.",
-      "Acceso multiusuario con diferentes perfiles y permisos"
+      "Acceso multiusuario con diferentes permisos"
     ],
     demo: "https://citicpy.com/sistema-demo/", // URL de demo activa
     github: "https://github.com/alexisalderete/sistema-gestion-instituto-publico",
@@ -23,13 +23,13 @@ const projects = [
     details: [
       "Implementación y despliegue en hosting",
       "Gestión de inscripciones, calificaciones, materiales/tareas, visualización de pagos realizados",
-      "Acceso para estudiantes y docentes con interfaces personalizadas"
+      "Acceso para estudiantes y docentes: Los estudiantes pueden visualizar sus calificaciones y materiales/tareas, pagos realizados. Los docentes pueden gestionar las calificaciones y materiales/tareas"
     ],
-    demo: "#", // Sin demo disponible
+    demo: "https://www.citicpy.com/portal-demo/", // Sin demo disponible
     github: "https://github.com/alexisalderete/portal-academico-publico",
     image: "./citic-portal-academico.png",
     tags: ["PHP MVC", "MySQL", "React", "Tailwind"],
-    hasDemo: false // Sin demo disponible
+    hasDemo: true // Sin demo disponible
   },
   {
     title: "Optimización de Flota Vehicular (en desarrollo)",
