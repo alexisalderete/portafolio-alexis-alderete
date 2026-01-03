@@ -20,8 +20,7 @@ export function Hero() {
               Desarrollador de software
             </h1>
             <p className="text-lg sm:text-xl text-slate-600 dark:text-slate-400 mb-8 leading-relaxed max-w-2xl">
-              Desarrollador apasionado creando aplicaciones web modernas y responsivas enfocado en la experiencia
-              del usuario y el código limpio.
+              Desarrollador apasionado con la creación de aplicaciones web modernas y responsivas, enfocado en la experiencia del usuario.
             </p>
 
 

@@ -5,7 +5,7 @@ import { SiXampp } from "react-icons/si";
 import { RiSettings5Fill } from "react-icons/ri";
 import { GrHostMaintenance } from "react-icons/gr";
 import { FaNetworkWired } from "react-icons/fa";
-import { IoCloudDone } from "react-icons/io5";
+import { IoCloudDone, IoLogoNodejs } from "react-icons/io5";
 
 
 const skills = [
@@ -26,6 +26,7 @@ const skills = [
     items: [
       { icon: SiHtml5, name: "HTML5", description: "Estructura web", color: "text-orange-500" },
       { icon: SiCss3, name: "CSS3", description: "Estilos web", color: "text-blue-400" },
+      { icon: IoLogoNodejs, name: "Node.js", description: "Entorno de ejecución JavaScript", color: "text-green-500" },
       { icon: SiBootstrap, name: "Bootstrap", description: "Framework CSS", color: "text-purple-600" },
       { icon: SiTailwindcss, name: "Tailwind CSS", description: "Utility-first CSS", color: "text-cyan-500" },
       { icon: SiReact, name: "React", description: "Frontend framework", color: "text-cyan-400" },
