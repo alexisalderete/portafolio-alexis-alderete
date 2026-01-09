@@ -31,20 +31,20 @@ const projects = [
     tags: ["PHP MVC", "MySQL", "React", "Tailwind"],
     hasDemo: true // Sin demo disponible
   },
-  {
-    title: "Optimización de Flota Vehicular (en desarrollo)",
-    description: "Aplicación web para optimización de rutas logísticas para múltiples vehículos.",
-    details: [
-      "Desarrollo de una aplicación web orientada a optimizar rutas para varios camiones",
-      "Proyecto utilizado como trabajo final de grado",
-      "Sistema de planificación y seguimiento en tiempo real"
-    ],
-    demo: "#", // Sin demo disponible
-    // github: "#",
-    image: "./optimizacion-rutas.png",
-    tags: ["Python", "PostgreSQL", "Docker", "React", "Tailwind"],
-    hasDemo: false // Sin demo disponible
-  },
+  // {
+  //   title: "Optimización de Flota Vehicular (en desarrollo)",
+  //   description: "Aplicación web para optimización de rutas logísticas para múltiples vehículos.",
+  //   details: [
+  //     "Desarrollo de una aplicación web orientada a optimizar rutas para varios camiones",
+  //     "Proyecto utilizado como trabajo final de grado",
+  //     "Sistema de planificación y seguimiento en tiempo real"
+  //   ],
+  //   demo: "#", // Sin demo disponible
+  //   // github: "#",
+  //   image: "./optimizacion-rutas.png",
+  //   tags: ["Python", "PostgreSQL", "Docker", "React", "Tailwind"],
+  //   hasDemo: false // Sin demo disponible
+  // },
   
   // {
   //   title: "E-commerce Full Stack",
