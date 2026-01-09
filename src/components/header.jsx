@@ -5,14 +5,13 @@ import { scrollToSection } from "./utils/scrollUtils";
 import { 
   MENU_ITEMS, 
   handleMobileNavClick,
-  useIsMobile,
   useMobileMenuEffects 
 } from "./utils/mobileMenuUtils";
 import { useState } from "react";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const isMobile = useIsMobile();
+
   
   // Usar efectos del menú
   useMobileMenuEffects(isMenuOpen, setIsMenuOpen);

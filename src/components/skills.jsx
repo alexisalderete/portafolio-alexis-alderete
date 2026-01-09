@@ -13,9 +13,9 @@ const skills = [
   { 
     category: "Lenguajes de programación",
     items: [
+      { icon: SiJavascript, name: "JavaScript", description: "Lenguaje web", color: "text-yellow-500" },
       { icon: SiPython, name: "Python", description: "Lenguaje multipropósito", color: "text-blue-500" },
       { icon: SiPhp, name: "PHP", description: "Backend web", color: "text-purple-500" },
-      { icon: SiJavascript, name: "JavaScript", description: "Lenguaje web", color: "text-yellow-500" },
       { icon: DiJava, name: "Java", description: "Lenguaje OOP", color: "text-red-500" },
     ]
   },
